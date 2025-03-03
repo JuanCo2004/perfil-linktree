@@ -1,1 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #fff;
+}
+main{
+    background: linear-gradient(to bottom, #d97735 10%, #25282f 60%);
+    height: 600px;
+    width: 300px;
+    border-radius: 24px;
+}
 
+#avatar{
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+#nombre{
+    font-size: 15px;
+    color: #fff;
+    padding: 5px;
+}
+#descripcion{
+    font-size: 15px;
+    color: #d9ccc8;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px; /*El gap define la separación de elementos*/
+}
+.option{
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    width: 280px;
+    height: 40px;
+    text-align: center;
+}
