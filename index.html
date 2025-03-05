@@ -5,31 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <!--Agrego Font Awesome para los íconos de redes sociales-->
+    <!--Agrego Font Awesome(biblioteca de íconos) para los íconos de redes sociales-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <script defer src="app.js"></script>
 </head>
 <body>
     <main>
+        <!-- Imagen de perfil -->
         <div>
             <img id="avatar" src="https://e1.pxfuel.com/desktop-wallpaper/763/66/desktop-wallpaper-black-cat-best-black-cat-in-high-quality-halloween-cats.jpg">
         </div>
+        <!-- Nombre y descripción -->
         <div>
             <h1 id="nombre"></h1>
             <p id="descripcion"></p>
         </div>
+        <!-- Caja de botones en columna -->
         <div class="container">
             <button class="option"><strong>Boilerroom set</strong></button>
             <button class="option"><strong>DJ Set up</strong></button>
             <button class="option"><strong>Book me for a concert</strong></button>
             <button class="option"><strong>Serato Concert</strong></button>
         </div>
+        <!-- Íconos de redes sociales: -->
         <div class="social_links">
-            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://spotify.com" target="_blank"><i class="fab fa-spotify"></i></a>
+            <!-- fa-brands se usa para íconos de marcas, y seguido del ícono que se quiere usar-->
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://spotify.com" target="_blank"><i class="fa-brands fa-spotify"></i></a>
         </div>
     </main>
-    
 </body>
 </html>

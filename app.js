@@ -1,5 +1,7 @@
-const nombreElement = document.getElementById("nombre");
-const descripcionElement = document.getElementById("descripcion");
 
-nombreElement.innerHTML = "Juan Correa"; // Nombre
-descripcionElement.textContent = "Me gusta la tecnología y estoy interesado en conocer nuevas innovaciones"; //Descripción
+//Capturo los elementos:
+const nombreDOM = document.getElementById("nombre");
+const descripcionDOM = document.getElementById("descripcion");
+//Agrego contenido:
+nombreDOM.innerText = "Juan Correa"// Nombre
+descripcionDOM.innerText = "Me gusta la tecnología y estoy interesado en conocer nuevas innovaciones"//Descripción
